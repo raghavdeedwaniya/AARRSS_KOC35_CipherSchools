@@ -110,3 +110,34 @@ img {
     padding: 10px;
     background-color: #F1F3FE;
 }
+@media screen and (max-width: 415px) {
+    .header h1{
+        font-size: 30px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .headname{
+        font-size: 20px;
+    }
+    .image{
+        width: 100px;
+    }
+    .rightcolumn{
+        float: none;
+        width: 100%;
+    }
+    .leftcolumn{
+        float: none;
+        width: 100%;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    .topnav a{
+        font-size: 12px;
+    }
+}
